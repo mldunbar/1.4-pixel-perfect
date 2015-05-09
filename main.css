@@ -43,13 +43,26 @@ table {
 }
 /*beginning of original code-header*/
 
+.background{
+	color: rgba(0, 94, 150, .5);
+	background: transparent;
+}
 header{
   max-width: 1300px;
   height: 523px;
   margin: auto;
   position: relative;
-  background: url("images/wave-header.jpg")
+  background-image: url("images/flags-header.jpg");
 }
+
+/*.layer{
+	background-color: rgba(0, 94, 150, 1);
+	top: 0;
+	left: 0;
+	max-width: 1300px;
+	height: 523px;
+	opacity: .5;
+}*/
 
 .main-icon {
   position: relative;
@@ -98,6 +111,7 @@ h1{
   color: #fff;
   text-align: center;
   margin-top: 155px;
+	background-color: rgba(0, 94, 150, .6);
 }
 
 .tagline {
@@ -108,20 +122,82 @@ h1{
   color: rgba(0, 55, 85, 1);
 }
 
+
 /*article CSS begins*/
 
 article {
-  max-width: 980px;
+  max-width: 600px;
   height: 1154px;
+	margin-left: 163px;
 }
 
 .headline {
-  max-width: 572px;
+	width: 760px;
   font-family: "Oswald";
   font-size: 62px;
   line-height: 110%;
   color: rgba(0, 52, 81, 1);
   text-align: left;
-  margin-left: 163px;
   margin-top: 65px;
+}
+
+.subhead img{
+	margin-top: 10px;
+	max-height: 22px;
+	max-width: 22px;
+}
+
+.subhead li{
+	font-family: "Open Sans";
+	font-size: 12px;
+}
+.subhead li:nth-child(2) {
+	color: rgba(50, 125, 183, 1);
+	margin-top: -20px;
+	margin-left: 30px;
+}
+
+.subhead li:nth-child(3){
+	color: rgba(177, 191, 201, 1);
+	margin-top: -12px;
+	margin-left: 100px;
+}
+
+.subhead li span{
+	text-decoration: underline;
+}
+
+.post {
+	position: relative;
+	margin: 0 auto;
+	text-align: left;
+	font-family: "Open Sans";
+	font-size: 16px;
+	letter-spacing: .01em;
+	color: rgba(93, 104, 111, 1);
+	line-height: 1.6em;
+	top: 35px;
+}
+
+.post h4{
+	color: rgba(0, 108, 176, 1);
+	font-size: 26px;
+	letter-spacing: .02em;
+	padding: 18px 0 14px 16px;
+	margin: 22px 0 28px 5px;
+	border-left: 2px solid rgba(211, 211, 211, 1);
+}
+
+.post span {
+	color: rgba(177, 191, 201, 1);
+	text-decoration: underline;
+}
+
+.buttons li{
+	font-family: "Open Sans";
+	font-size: 10px;
+	margin-left: 2px;
+}
+
+.buttons li:nth child(1){
 }
