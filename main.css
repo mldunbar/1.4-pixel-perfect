@@ -41,7 +41,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/*beginning of original code*/
+/*beginning of original code-header*/
 
 header{
   max-width: 1300px;
@@ -106,4 +106,22 @@ h1{
   margin-top: 5px;
   margin-left: 497px;
   color: rgba(0, 55, 85, 1);
+}
+
+/*article CSS begins*/
+
+article {
+  max-width: 980px;
+  height: 1154px;
+}
+
+.headline {
+  max-width: 572px;
+  font-family: "Oswald";
+  font-size: 62px;
+  line-height: 110%;
+  color: rgba(0, 52, 81, 1);
+  text-align: left;
+  margin-left: 163px;
+  margin-top: 65px;
 }
